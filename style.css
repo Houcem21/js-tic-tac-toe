@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+}
+
+.tic-tac-toe-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+
+.tic-tac {
+    flex: 1 1 30%;
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.board-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-game {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6)
+    
+    
+}
+
+h1 {
+    margin-top: -100px;
+    
+}
+
+.replay-btn {
+    height: 50px;
+    padding: 1rem;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
